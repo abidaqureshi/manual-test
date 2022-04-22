@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: url("../font/TTNorms-Medium.otf") format("opentype");
+}
+
+body {
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.main {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
