@@ -1,4 +1,6 @@
 import '../style/css/header.css'
+import {Button} from 'antd';
+
 const Header = () => {
     return (
         <div className="header">
@@ -14,9 +16,9 @@ const Header = () => {
                         From top to bottom, inside and out.
                     </p>
                 </div>
-                <button className="header-button">
+                <Button className="header-button" type="primary" size="large">
                     Take the quiz
-                </button>
+                </Button>
             </div>
         </div>
     )

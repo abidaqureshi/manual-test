@@ -5,7 +5,8 @@ import twitterImg from '../style/img/twitter.png';
 import Logo from '../style/img/logo.png';
 const Footer = () => {
     return (
-        <div className="footer">
+        <footer>
+        <div className="footer-container">
             <div>
                 <div className="logo-manual">
                     <img src={Logo} alt="Manual" />
@@ -75,6 +76,7 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
+    </footer>
     );
 }
 

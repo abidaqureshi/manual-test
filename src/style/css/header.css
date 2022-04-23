@@ -2,9 +2,11 @@
     margin:0;
     padding:0;
     position: relative;
-    width: 1440px;
+
     height: 750px;
-    background: url('images/header.png');
+    background: url('images/header.png') no-repeat;
+    background-size:100% auto;
+
 }
 
 .heading {
@@ -48,10 +50,8 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 15px 30px;
-    border:none;
-    position: static;
-    width: 156px;
-    height: 45px;
+    cursor: pointer;
+
     /* identical to box height, or 150% */
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -81,4 +81,16 @@
     height: 371px;
     left: 138px;
     top: calc(50% - 371px/2 - 0.5px);
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        width:300px;
+        left:10px;
+    }
+   .heading {
+       font-size: 40px;
+
+   }
+
 }

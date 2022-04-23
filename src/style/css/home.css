@@ -95,3 +95,34 @@
 .logo-manual {
     padding:115px;
 }
+
+@media only screen and (max-width: 600px) {
+   .section-content {
+       flex-direction: column;
+       align-items: center;
+       padding:0px;
+   }
+   .section-photo-container {
+       margin-right: 0px;
+   }
+
+   .section-details {
+
+   }
+
+   .section-details-2 {
+       margin-right: 0px;
+   }
+
+   .ss {
+       font-size: 300px;
+   }
+
+   .details {
+       left:0px;
+   }
+   .details-2 {
+       left:20px;
+   }
+
+}
