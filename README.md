@@ -25,8 +25,8 @@ The landing page should be coded as designed, and tested for all screen sizes. I
  - The user should be able to go back to the previous questions. If they do, the previously selected answer should be visible somehow. Users should also be able to change their answers by simply selecting a new one, possibly triggering a rejection.
  - The quiz questions are fully described in the provided JSON file. The quiz should be fully dynamic, allowing the existing JSON file to be replaced with a different one, or even with an API.
 # You can find the json here: https://manual-case-study.herokuapp.com/questionnaires/972423.json or attached at the end of this document.
-● If the user selects as an answer an option that has isRejection === true, they should be shown the result “Unfortunately, we are unable to prescribe this medication for you. This is because finasteride can alter the PSA levels, which maybe used to monitor for cancer. You should discuss this further with your GP or specialist if you would still like this medication.”
-● If the user reaches the end of the quiz without meeting any of the rejection conditions, they should be shown the result “Great news! We have the perfect treatment for your hair loss. Proceed to www.manual.co, and prepare to say hello to your new hair!”
+- If the user selects as an answer an option that has isRejection === true, they should be shown the result “Unfortunately, we are unable to prescribe this medication for you. This is because finasteride can alter the PSA levels, which maybe used to monitor for cancer. You should discuss this further with your GP or specialist if you would still like this medication.”
+- If the user reaches the end of the quiz without meeting any of the rejection conditions, they should be shown the result “Great news! We have the perfect treatment for your hair loss. Proceed to www.manual.co, and prepare to say hello to your new hair!”
   
  JSON {
 "questions":[ {
