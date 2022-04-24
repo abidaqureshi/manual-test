@@ -1,4 +1,4 @@
-import '../style/css/footer.css'
+import '../style/scss/footer.scss'
 import googleImg from '../style/img/google.png';
 import facebookImg from '../style/img/facebook.png';
 import twitterImg from '../style/img/twitter.png';

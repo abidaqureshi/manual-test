@@ -1,9 +1,9 @@
-import '../style/css/header.css'
 import { Modal, Button } from 'antd';
 import { useState } from 'react';
+import '../style/scss/header.scss';
+
 
 const Header = ({onClickQuiz}) => {
-
     return (
         <div className="header">
             <div className="intro">

@@ -1,5 +1,5 @@
 import { Modal } from 'antd';
-
+import '../../style/scss/questionnaire.scss';
 const Questionairre = ({visible, handleCancel, handleOk}) => {
 
     return (
