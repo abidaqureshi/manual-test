@@ -9,7 +9,7 @@ const Questionairre = ({visible, handleCancel, handleOk}) => {
     useEffect(()=>{
         const questions = getQuestions();
         console.log(questions);
-    },[visible]);
+    },[]);
 
     return (
         <Modal
