@@ -1,7 +1,9 @@
 import '../style/css/header.css'
-import {Button} from 'antd';
+import { Modal, Button } from 'antd';
+import { useState } from 'react';
 
-const Header = () => {
+const Header = ({onClickQuiz}) => {
+
     return (
         <div className="header">
             <div className="intro">
@@ -16,7 +18,7 @@ const Header = () => {
                         From top to bottom, inside and out.
                     </p>
                 </div>
-                <Button className="header-button" type="primary" size="large">
+                <Button className="header-button" type="primary" size="large" onClick={onClickQuiz}>
                     Take the quiz
                 </Button>
             </div>
