@@ -35,7 +35,8 @@ const Questionairre = ({visible, handleCancel, handleOk}) => {
             visible={visible}
             onOk={next}
             okText="Next"
-            onCancel={handleCancel}
+            cancelText="Previous"
+            onCancel={prev}
         >
             <Steps current={current}>
                 {!!questions && questions.questions && questions.questions.length && questions.questions.map((item, index) => (
