@@ -1,9 +1,14 @@
-import { Modal, Button } from 'antd';
-import { useState } from 'react';
+import {useNavigate} from 'react-router-dom'
+import { Button } from 'antd';
 import '../style/scss/header.scss';
 
 
-const Header = ({onClickQuiz}) => {
+const Header = () => {
+
+    const navigate = useNavigate();
+    const onClickQuiz = () => {
+        navigate('/questionnaire');
+    }
     return (
         <div className="header">
             <div className="intro">

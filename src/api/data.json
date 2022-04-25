@@ -31,7 +31,13 @@
         "question":"Have you ever been diagnosed with prostate cancer, or are you currently undergoing PSA/Prostate monitoring?",
             "type":"ChoiceType", 
             "options":[{
-                "display":"Yes", "value":true, "isRejection":true
+                "display":"Yes",
+                "value":true,
+                "isRejection":true
+            },{
+                "display":"No",
+                "value":false,
+                "isRejection":false
             }]
         }, {
         "question":"Have you ever been diagnosed with breast cancer or noticed any changes in your breast tissue such as lumps, pain, nipple discharge or swelling?",
@@ -41,9 +47,7 @@
         },
         {
             "display":"No", "value":false, "isRejection":false
-        },
-        {
-            "display":"No", "value":false, "isRejection":false
-        }]
+        }
+      ]
     } 
     ]}

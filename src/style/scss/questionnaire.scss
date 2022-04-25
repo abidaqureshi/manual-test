@@ -9,3 +9,9 @@
   height: calc(100vh - 110px);
   z-index: 10000;
 }
+
+.steps-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

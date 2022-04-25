@@ -4,14 +4,11 @@ import secondPhoto from '../style/img/second_photo.png';
 import Header from "../containers/header";
 import Footer from "../containers/footer";
 
-
-import Questionairre from '../components/questionnaire/Questionaire';
-import {useModal} from '../hooks/useModal';
 const Home = () => {
-    const {showModal, visible, handleCancel, handleOk} = useModal();
+
     return (
         <div className="container">
-            <Header onClickQuiz={showModal}/>
+            <Header/>
             <div className="container-contents">
                 <main>
                     <div className="main">
@@ -68,7 +65,7 @@ const Home = () => {
                 </main>
             </div>
             <Footer/>
-            <Questionairre visible={visible} handleCancel={handleCancel} handleOk={handleOk} />
+
         </div>
     );
 }
