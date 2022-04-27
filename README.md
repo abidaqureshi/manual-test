@@ -19,8 +19,3 @@
 - The architecture is following a flexible approach.
 - Used ant design react components for UI which are responsive and speeds up development.
 
-
-## Coding style followed:
-
-- Prettier
-- Eslint React recommended
