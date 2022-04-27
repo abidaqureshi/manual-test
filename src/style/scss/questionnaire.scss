@@ -1,13 +1,15 @@
-.ant-modal, .ant-modal-content {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  top: 0;
-  z-index: 10000;
+.render-options {
+  height: 60vh;
+  overflow-y: scroll;
 }
-.ant-modal-body {
-  height: calc(100vh - 110px);
-  z-index: 10000;
+
+.steps-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  width:100%;
 }
 
 .steps-action {
